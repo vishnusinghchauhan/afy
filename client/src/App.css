@@ -1,0 +1,47 @@
+.Portfolio {
+	position: relative;
+	margin: 5px;
+	border: 2px solid black;
+	float: left;
+	width: 32%;
+	transition-duration: 0.4s;
+	border-radius: 5px;
+	animation: winanim 0.5s;
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12);
+}
+
+.Portfolio:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+.desc {
+	padding: 5px;
+	text-align: center;
+	font-size: 90%;
+	background: #1f262d;
+	color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: #252832;
+}
+
+.full_modal-dialog {
+	width: 98% !important;
+	height: 92% !important;
+	min-width: 98% !important;
+	min-height: 92% !important;
+	max-width: 98% !important;
+	max-height: 92% !important;
+	padding: 0 !important;
+}
+
+.full_modal-content {
+	height: 99% !important;
+	min-height: 99% !important;
+	max-height: 99% !important;
+}
